@@ -1,0 +1,40 @@
+
+{
+  "name": "nextminer-kawpow",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "description": "KawPOW algorithm hashing and verification functions for NodeJS.",
+  "keywords": [
+      "mining",
+      "kawpow",
+      "ravencoin",
+      "raven"
+  ],
+  "homepage": "https://github.com/szilardkoppel/nextminer-kawpow",
+  "bugs": {
+      "url": "https://github.com/szilardkoppel/nextminer-kawpow/issues"
+  },
+  "license": "MIT",
+  "author": {
+      "name": "JCThePants"
+  },
+  "scripts": {
+      "test": "node test"
+  },
+  "contributors": [],
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/szilardkoppel/nextminer-kawpow.git"
+  },
+  "dependencies": {
+      "bindings": "^1.3.0",
+      "nan": "^2.6.2"
+  },
+  "devDependencies": {
+      "cmake-js": "^4.0.1"
+  },
+  "engines": {
+      "node": ">=10.17.0"
+  },
+  "readmeFilename": "README.md"
+}
